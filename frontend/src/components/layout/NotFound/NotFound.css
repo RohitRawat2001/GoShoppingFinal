@@ -1,0 +1,53 @@
+.PageNotFound {
+  margin: auto;
+  text-align: center;
+  padding: 10vmax;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.PageNotFound > svg {
+  font-size: 7vmax;
+  color: tomato;
+}
+.PageNotFound > p {
+  font-size: 2vmax;
+}
+.PageNotFound > a {
+  background: linear-gradient(180deg, rgb(0, 200, 255) 0%, rgb(0, 0, 0) 100%);
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 20px;
+  padding: 1vmax 3vmax;
+  cursor: pointer;
+  font: 400 1vmax "Roboto";
+  text-decoration: none;
+  margin: 2vmax;
+  transition: all 0.5s;
+}
+.PageNotFound > a:hover {
+  background: linear-gradient(
+    180deg,
+    rgb(0, 200, 255) 0%,
+    rgb(255, 255, 255) 100%
+  );
+  color: black;
+}
+
+@media screen and (max-width: 600px) {
+  .PageNotFound > a {
+    padding: 3vw 6vw;
+    font: 400 4vw "Roboto";
+    margin: 2vmax;
+  }
+
+  .PageNotFound > svg {
+    font-size: 20vw;
+  }
+  .PageNotFound > p {
+    margin: 2vmax;
+    font-size: 5vw;
+  }
+}

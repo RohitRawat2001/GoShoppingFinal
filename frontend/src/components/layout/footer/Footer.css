@@ -1,0 +1,75 @@
+footer {
+  margin-top: 10vmax;
+  padding: 2vmax;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    180deg,
+    rgb(0, 200, 255) 0%,
+    rgb(255, 255, 255) 100%
+  );
+  color: rgb(0, 0, 0);
+  display: flex;
+  align-items: center;
+}
+.leftFooter {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.leftFooter > h4 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 1vmax;
+  margin: 5px;
+}
+.leftFooter > p {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+  font-size: 1.2vmax;
+}
+.leftFooter > img {
+  width: 10vmax;
+  margin: 1vmax;
+  cursor: pointer;
+}
+
+.midFooter {
+  width: 60%;
+  text-align: center;
+}
+.midFooter > h1 {
+  font-size: 4vmax;
+  color: crimson;
+  font-family: sans-serif;
+  transition: all 0.5s;
+}
+.midFooter > h1:hover {
+  transform: scale(1.1);
+}
+
+.midFooter > p {
+  font-size: medium;
+  margin: 1vmax;
+}
+.rightFooter {
+  width: 20%;
+  text-align: center;
+}
+.rightFooter > h4 {
+  font-size: 2vmax;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.rightFooter > a {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  font: 800 1rem "Roboto";
+  margin: 1vmax;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.rightFooter > a:hover {
+  color: rgb(255, 25, 0);
+  transform: scale(1.1);
+}
